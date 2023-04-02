@@ -1,0 +1,35 @@
+{
+    "Projects": "Projects",
+    "Home": "Home",
+    "Language": "Language",
+    "ukr": "Ukrainian",
+    "en": "English",
+
+    "prj_page_subtitle": "List of all my projects ",
+    "Main projects": "Main projects",
+    "main_prj_subtitle": "Projects that I am currently developing or supporting.",
+    "smartcard_subtitle": "Learn English while having fun!",
+    "Secondary projects": "Secondary projects",
+    "sec_prj_subtitle": "Completed and/or abandoned projects.",
+    "todo_subtitle": "Plan your day.",
+    "cypher_subtitle": "Symmetric and asymmetric encryption methods.", 
+
+    "Social media": "Social media",
+    "Code": "Code",
+
+    "name": "Vladyslav Ilnytskyi",
+    "About": "About me",
+    "about_subtitle": "I am a 4th year student at the Kharkiv National University of Radio Electronics. I like solving problems with code and automating routine tasks, and I'm good at maths.",
+    "My projects": "My projects",
+    "prj_subtitle": "A full list of all the projects I have been involved in.",
+    "My portfolio": "My portfolio",
+    "Links": "Links",
+    "links_subtitle": "Where you can find me.",
+    "Contact": "Contact",
+
+    "Responsible": "Responsible",
+    "Punctual": "Punctual",
+    "Organised": "Organised",
+    "Open": "I'm open to others' opinions",
+    "Help": "I love helping people"
+}
