@@ -11,16 +11,16 @@ export const Main = ({t}) => {
             <span className='text-lg font-thin mt-2 tracking-wide'>Front-end JS / React developer</span>
         </div>
 
-        <hr className="w-2/4 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+        <hr className="w-2/4 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 max-md:w-3/4"></hr>
 
-        <div className='flex flex-col items-left w-2/4'>
+        <div className='flex flex-col items-left w-2/4 max-md:w-3/4'>
             <span className='text-3xl font-semibold mt-2 tracking-wide'>{t("About")}</span>
             <span className='text-lg font-thin mt-2 tracking-wide break-words'>{t("about_subtitle")}</span>
         </div>
 
-        <hr className="w-2/4 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+        <hr className="w-2/4 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 max-md:w-3/4"></hr>
 
-        <div className='flex flex-row justify-between w-2/4 max-sm:flex-col'>
+        <div className='flex flex-row justify-between w-2/4 max-sm:flex-col max-md:w-3/4'>
             <div>
                 <span className='text-3xl font-semibold mt-2 tracking-wide'>Hard skills</span>
                 <div className='flex flex-row mt-6'> 
@@ -90,9 +90,9 @@ export const Main = ({t}) => {
             </div>
         </div>
 
-        <hr className="w-2/4 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+        <hr className="w-2/4 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 max-md:w-3/4"></hr>
 
-        <div className='flex justify-between w-2/4 flex-col'>
+        <div className='flex justify-between w-2/4 flex-col max-md:w-3/4'>
             <span className='text-3xl font-semibold mt-2 tracking-wide'>{t("My projects")}</span>
             <span className='mt-6 font-thin text-lg'>{t("prj_subtitle")}</span>
             <Link to='/projects'
@@ -101,9 +101,9 @@ export const Main = ({t}) => {
             </Link>
         </div>
 
-        <hr className="w-2/4 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+        <hr className="w-2/4 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 max-md:w-3/4"></hr>
 
-        <div className='flex justify-between w-2/4 flex-col'>
+        <div className='flex justify-between w-2/4 flex-col max-md:w-3/4'>
             <span className='text-3xl font-semibold mt-2 tracking-wide'>{t("Links")}</span>
             <span className='mt-6 font-thin text-lg'>{t("links_subtitle")}</span>
             <Link to='/links'

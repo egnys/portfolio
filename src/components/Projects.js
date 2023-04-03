@@ -6,14 +6,14 @@ import todolist from '../img/todolist.png'
 const Projects = ({t}) => {
   return (
     <div className='max-w-screen-xl flex flex-col mt-8 pb-20 m-auto items-center justify-center dark:text-white'>
-        <div className='w-2/4 flex flex-col items-center'>
+        <div className='w-2/4 flex flex-col items-center max-md:w-3/4'>
             <span className='text-3xl font-semibold mt-6 tracking-wide'>{t("Projects")}</span>
             <span className='text-xl font-thin mt-2 tracking-wide'>{t("prj_page_subtitle")}</span>
         </div>
 
-        <hr className="w-2/4 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+        <hr className="w-2/4 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 max-md:w-3/4"></hr>
 
-        <div className='flex flex-col items-left w-2/4'>
+        <div className='flex flex-col items-left w-2/4 max-md:w-3/4'>
             <span className='text-3xl font-semibold mt-2 tracking-wide'>{t("Main projects")}</span>
             <span className='text-lg font-thin mt-2 tracking-wide break-words'>{t("main_prj_subtitle")}</span>
 
@@ -26,9 +26,9 @@ const Projects = ({t}) => {
             </a>
         </div>
 
-        <hr className="w-2/4 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+        <hr className="w-2/4 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 max-md:w-3/4"></hr>
 
-        <div className='flex flex-col items-left w-2/4'>
+        <div className='flex flex-col items-left w-2/4 max-md:w-3/4'>
             <span className='text-3xl font-semibold mt-2 tracking-wide'>{t("Secondary projects")}</span>
             <span className='text-lg font-thin mt-2 tracking-wide break-words'>{t("sec_prj_subtitle")}</span>
 
