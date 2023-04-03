@@ -19,7 +19,7 @@ function App() {
   }
 
   return (
-    <div className="App dark:bg-black min-h-screen">
+    <div className="App dark:bg-div min-h-screen">
       <Navbar changeLang={changeLang} t={t}/>
       <Routes>
         <Route path='/' element={<Main t={t}/>}/>
