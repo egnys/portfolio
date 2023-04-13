@@ -1,12 +1,12 @@
 import React from 'react'
-import avatar from "../img/Screenshot_3.png"
+import avatar from "../img/avatar.png"
 import { Link } from 'react-router-dom'
 
 export const Main = ({t}) => {
   return (
     <div className='max-w-screen-xl flex flex-col mt-8 pb-20 m-auto items-center justify-center dark:text-white'>
         <div className='flex flex-col items-center'>
-            <img src={avatar} alt='avatar' className='w-64 rounded-full'/>
+            <img src={avatar} alt='avatar' className='w-64 rounded-2xl'/>
             <span className='text-3xl font-semibold mt-6 tracking-wide'>{t("name")}</span>
             <span className='text-lg font-thin mt-2 tracking-wide'>Front-end JS / React developer</span>
         </div>

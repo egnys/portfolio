@@ -23,7 +23,7 @@ export const Navbar = ({changeLang, t}) => {
     <nav className="sticky top-0 bg-white border-gray-200 dark:bg-navbar">
     <div className=" max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5">
         <Link to='/' className="flex items-center">
-            <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">xiosx</span>
+            <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">oddtrx</span>
         </Link>
 
         <button  onClick={() => toggle('navbar-default')} data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 dark:text-black rounded-lg md:hidden hover:bg-white focus:outline-none focus:ring-2 focus:ring-gray-200 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
